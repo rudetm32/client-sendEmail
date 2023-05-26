@@ -4,6 +4,10 @@ import Home from "./componets/home/Home";
 
 import Notify from './componets/notify/Notify';
 import NavBar from './componets/navBar/NavBar';
+
+import axios from "axios"
+axios.defaults.baseURL= "https://server-send.onrender.com"
+
 function App() {
 
   return (

@@ -20,7 +20,7 @@ useEffect(() => {
 const onSubmit = (data) => {
    
   axios
-  .post("http://localhost:3001/send", data)
+  .post("/send", data)
   .then((data) => {
    if (data) {
      Swal.fire({
